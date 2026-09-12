@@ -3,8 +3,6 @@ import json
 import csv
 import io
 import urllib.request
-from app import app as application
-# import googlemap
 from collections import defaultdict
 import numpy as np
 from flask import Flask, request, jsonify, render_template_string, Response
