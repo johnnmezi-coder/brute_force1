@@ -670,5 +670,5 @@ def import_csv():
 
     return jsonify({"status": "Success", "message": f"Imported {imported_count} IPs."})
 
-if __name__ == '__main__':
+if __name__ == '__apps__':
     app.run(debug=True, port=5000)
