@@ -3,7 +3,7 @@ import json
 import csv
 import io
 import urllib.request
-from apps import app as application
+from app import app as application
 # import googlemap
 from collections import defaultdict
 import numpy as np
