@@ -356,7 +356,7 @@ FULL_DASHBOARD_TEMPLATE = """
         // Initialize Leaflet Map
         function initMap() {
             map = L.map('map').setView([20, 0], 2);
-            L.tileLayer('https://basemaps.cartocdn.com/rastertiles/voyager/%7Bz%7D/%7Bx%7D/%7By%7D.png?key=cb1_3j8z_1_6ab89a51f443b1de5e682f9f', {
+            L.tileLayer('https://basemaps.cartocdn.com/rastertiles/voyager/%7Bz%7D/%7Bx%7D/%7By%7D.png?', {
                 attribution: '&copy; OpenStreetMap & CartoDB',
                 maxZoom: 18
             }).addTo(map);
